@@ -1,0 +1,219 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  /* Section divider styles */
+  .section-divider {
+    width: 80%;
+    max-width: 1000px;
+    height: 1px;
+    background-color: #ccc;
+    margin: 2rem auto;
+    border: none;
+  }
+  
+  /* Home section styles */
+  .home-container {
+    background-color: #f4f4f4;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .home-container h1 {
+    font-size: 3rem;
+  }
+  
+  .home-container p {
+    font-size: 1.25rem;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cta-btn:hover {
+    background-color: #555;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Container styles */
+  .container {
+    padding: 2rem;
+  }
+  
+  /* Card styles */
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .card-title {
+    flex: 1;
+    max-width: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-title h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+  
+  .vertical-divider {
+    height: 80%;
+    width: 1px;
+    background-color: #ccc;
+    align-self: center;
+    margin-left: 1rem;
+  }
+  
+  .card-text {
+    flex: 1;
+    max-width: 80%;
+    padding-left: 1rem;
+  }
+  
+  /* Social media icons */
+  .card-text .fab {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .card-text .fab:hover {
+    color: #555;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .skill-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: calc(20% - 0.5rem);
+  }
+  
+  .home-container {
+    background-color: #f4f4f4;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .home-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin-right: 1rem;
+    border-radius: 20%;
+  }
+  
+  .home-text {
+    flex: 1;
+  }
+  
+  .card-text .fab {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: blue; /* Change this value to the desired color */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .card-text .fab:hover {
+    color: darkblue; /* Change this value to the desired hover color */
+  }
+  
+  /* Mobile devices (below 768px) */
+  @media screen and (max-width: 767px) {
+    .home-container {
+      flex-direction: column;
+    }
+  
+    .home-image {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .skill-card {
+      width: 100%;
+    }
+  }
+  
+  /* Tablets (between 768px and 1024px) */
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .skill-card {
+      width: 100%;
+    }
+  }
+  
+  /* Desktops (above 1024px) */
+  @media screen and (min-width: 1025px) {
+    /* Styles for desktop devices go here */
+  }
+  
+  
